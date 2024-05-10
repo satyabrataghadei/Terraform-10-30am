@@ -87,9 +87,11 @@ egress {
     key_name = var.keyname
     vpc_security_group_ids = [aws_security_group.dev.id]
     tags = {
-      Name = "devec2"
+      Name = "today"
     }
 } 
+
+
 
 
 
